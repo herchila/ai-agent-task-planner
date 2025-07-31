@@ -10,8 +10,6 @@ You can:
 - ❌ Delete tasks
 - 📊 Show task statistics
 
----
-
 ## 🚀 How it works
 
 This agent implements the **ReAct** pattern (Reasoning + Acting), using internal tools (Python functions) to take actions.
@@ -22,8 +20,6 @@ General flow:
 3. It calls the appropriate function (`save_task`, `list_tasks`, `complete_task`, etc.).
 4. You get a clear response.
 
----
-
 ## 🛠️ Tech Stack
 
 - Python 3.10+
@@ -31,8 +27,6 @@ General flow:
 - [Ollama](https://ollama.com/) + LLaMA 3 (local model)
 - `json`, `datetime`, `rich`
 - Local CLI app (no frontend needed)
-
----
 
 ## 📦 Installation
 
@@ -49,8 +43,6 @@ Make sure you have Ollama installed and the `llama3` model available:
 ollama run llama3
 ```
 
----
-
 ## ▶️ Usage
 
 ```bash
@@ -64,9 +56,7 @@ python main.py
 - `"Mark task 2 as completed"`
 - `"Delete task 1"`
 - `"Show me statistics"`
-- `"exit"` to quit
-
----
+- `"bye, exit"` to quit
 
 ## 📁 Project Structure
 
@@ -79,8 +69,8 @@ AI_AGENT_TASKS/
 ├── requirements.txt
 ```
 
----
-
 ## ✍️ Author
 
-Built by [@herchila](https://github.com/herchila).
+Built by Hernan Chilabert.
+
+X: [@herchila](https://x.com/herchila)
