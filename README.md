@@ -31,8 +31,8 @@ General flow:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/task-planner-ai-agent.git
-cd task-planner-ai-agent
+git clone https://github.com/herchila/ai-agent-task-planner.git
+cd ai-agent-task-planner
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
